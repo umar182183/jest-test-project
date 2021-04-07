@@ -2,6 +2,17 @@ test("show convert camel case to snake case", () => {
     var snaked = camelToSnakeCase("bananaOrangeAppleMango");
     expect(snaked).toBe("banana_orange_apple_mango");
   });
+
+  test("show convert snake case to camel case", () => {
+    var camled = snakeToCamelCase("banana_orange_apple_mango");
+    expect(camled).toBe("bananaOrangeAppleMango");
+  });
+
+  test("show uniquewords with sorting", () => {
+    var unique = getUniqueWords("Hello umar Umar how how are you you");
+    expect(unique).toBe("are hello how umar you");
+  });
+
   
   function camelToSnakeCase(val) {
     // var fruits = "bananaOrangeAppleMango";
@@ -43,7 +54,7 @@ test("show convert camel case to snake case", () => {
       }
       return 0;
     });
-    // console.log("unique: ", unique.join(" "));
+    console.log("unique: ", unique.join(" "));
     return unique.join(" ");
   }
   

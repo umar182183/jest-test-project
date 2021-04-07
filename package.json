@@ -4,7 +4,7 @@
   "description": "test-file",
   "main": "index.js",
   "scripts": {
-    "test": "jest -o"
+    "test": "jest -all"
   },
   "author": "umar",
   "license": "ISC",
