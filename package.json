@@ -1,0 +1,17 @@
+{
+  "name": "test-jest",
+  "version": "1.0.0",
+  "description": "test-file",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest -o"
+  },
+  "author": "umar",
+  "license": "ISC",
+  "keywords": [
+    "test"
+  ],
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
